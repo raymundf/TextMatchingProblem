@@ -30,7 +30,5 @@ namespace TextMatch.Implementations
 
             return matchedStartPositions.ToArray();
         }
-
-
     }
 }

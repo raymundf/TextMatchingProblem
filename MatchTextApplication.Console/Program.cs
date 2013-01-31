@@ -11,6 +11,7 @@ namespace TextMatchApplication.Console
         static void Main(string[] args)
         {
             var simpleMatchText = new SimpleTextMatch();
+
             System.Console.WriteLine(String.Join(",", 
                 simpleMatchText.FindMatchedPositions(
                 "Polly put the kettle on, polly put the kettle on, polly put the kettle on we'll all have tea",
